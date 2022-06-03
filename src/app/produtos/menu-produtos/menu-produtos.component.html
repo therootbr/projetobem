@@ -1,0 +1,14 @@
+<mat-toolbar class="toolbar">
+    <mat-toolbar-row>
+
+        <div id="div-toolbar-menu">
+            <a mat-button [routerLink]="'/catalogo'" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact:true}"> PRODUTOS <mat-icon aria-hidden="false" aria-label="Example offer icon">local_offer</mat-icon></a>
+            <a mat-button [routerLink]="'/catalogo/servicos'" routerLinkActive="activebutton"> SERVIÇOS <mat-icon aria-hidden="false" aria-label="Example services icon">room_service</mat-icon></a>
+            <a mat-button [routerLink]="'/catalogo/marcas'" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact:true}"> MARCAS <mat-icon aria-hidden="false" aria-label="Example user verified icon">verified</mat-icon></a>
+            <a mat-button [routerLink]="'/create-contact'" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact:true}"> UNIDADES DE MEDIDA <mat-icon aria-hidden="false" aria-label="Example user verified icon">scale</mat-icon></a>
+            <a mat-button [routerLink]="'/activities'" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact:true}"> ETIQUETAS <mat-icon  aria-hidden="false" aria-label="Example user verified icon">local_activity</mat-icon></a>
+          </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<!-- <div class="content" role="main"> -->
