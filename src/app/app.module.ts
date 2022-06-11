@@ -6,6 +6,10 @@ import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +18,7 @@ import { ProdutosComponent } from './produtos/produtos.component';
 import { ServicosComponent } from './produtos/servicos/servicos.component';
 import { MarcasComponent } from './produtos/marcas/marcas.component';
 import { MenuProdutosComponent } from './produtos/menu-produtos/menu-produtos.component';
+import { PdvComponent } from './pdv/pdv.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,8 @@ import { MenuProdutosComponent } from './produtos/menu-produtos/menu-produtos.co
     ProdutosComponent,
     ServicosComponent,
     MarcasComponent,
-    MenuProdutosComponent
+    MenuProdutosComponent,
+    PdvComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,11 @@ import { MenuProdutosComponent } from './produtos/menu-produtos/menu-produtos.co
     MatMenuModule,
     MatButtonModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
